@@ -685,6 +685,16 @@ header {
       .services-flex .one-third, .services-flex .one-forth {
         width: 100%;
         display: block; } }
+  
+  .date {
+    display: block; /* Or inline-block, depending on your layout */
+    color: #555; /* Subdued color for the date */
+    margin-bottom: 5px; /* Space between date and job description */
+    font-size: 0.9em; /* Smaller font size than the rest of the text */
+    margin-top: 20px; /* Adjust the spacing as needed */
+    white-space: nowrap; /* Ensures the date doesn't wrap to the next line */
+}
+
 
 .services {
   margin-bottom: 4em; }
